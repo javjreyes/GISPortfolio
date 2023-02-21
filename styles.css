@@ -1,0 +1,10 @@
+
+#titleBanner{
+    display: grid;
+    justify-content: center;
+}
+
+#profilePhoto{
+    width:200px;
+    border-radius: 100px;
+}
