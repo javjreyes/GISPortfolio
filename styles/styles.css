@@ -11,16 +11,15 @@ body{
 
 #profilePhoto{
     width:200px;
+    
     border-radius: 100px;
 }
 
 
 #navBarIndex{
-    
-    padding: 10px;
-
     text-align: center;
 
+    padding: 10px;
 }
 #navBarIndex a{
     color: black;
@@ -36,3 +35,20 @@ body{
     box-shadow: inset 100px 0 0 0 #209710;
     color: white;
   }
+
+.projCard{
+    text-align: center;
+
+    width:200px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+
+
+}
+.projCard img{
+    width:200px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+} 
