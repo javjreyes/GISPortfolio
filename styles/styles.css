@@ -11,7 +11,7 @@ body{
 
 #profilePhoto{
     width:200px;
-    
+
     border-radius: 100px;
 }
 
@@ -36,14 +36,27 @@ body{
     color: white;
   }
 
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: 350px 350px 350px 350px;
+
+    justify-content: center;
+
+
+}
+
+
 .projCard{
     text-align: center;
+    justify-content: center;
 
     width:200px;
+    margin:auto;
 
     border: 1px solid black;
     border-radius: 20px;
-
 
 }
 .projCard img{
