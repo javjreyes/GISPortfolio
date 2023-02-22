@@ -1,6 +1,8 @@
 body{
     margin:0;
 }
+
+/*Page title banner*/
 #titleBanner{
     display: grid;
     justify-content: center;
@@ -15,7 +17,7 @@ body{
     border-radius: 100px;
 }
 
-
+/*Homepage navigation*/
 #navBarIndex{
     text-align: center;
 
@@ -36,7 +38,7 @@ body{
     color: white;
   }
 
-
+/*Grid container for project cards*/
 #container{
     display: grid;
     grid-gap: 0;
@@ -49,7 +51,7 @@ body{
 
 }
 
-
+/*Project Cards*/
 .projCard{
     text-align: center;
     justify-content: center;
@@ -71,4 +73,4 @@ body{
 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-} 
+}
