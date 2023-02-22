@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+
+
+/*INDEX PAGE*/
+
 /*Page title banner*/
 #titleBanner{
     display: grid;
@@ -79,4 +83,38 @@ a{
 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+
+
+/*PROJECT PAGE*/
+/*
+#projBody{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+}
+.proj{
+    display: grid;
+    justify-content: center;
+    margin: 0;
+
+    width: 100vw;
+    width:100%;
+}
+/*Project formating
+.proj img{
+    width: 800px;
+}
+*/
+
+#projBody{
+
+
+}
+.proj{
+    text-align: center;
+}
+.proj img{
+    width: 80%;
 }
