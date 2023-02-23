@@ -2,7 +2,7 @@ body{
     margin:0;
 }
 
-a{
+#index a{
     color: black;
     text-decoration: none;
 }
@@ -43,7 +43,7 @@ a{
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 #navBarIndex a:hover {
-    box-shadow: inset 100px 0 0 0 #209710;
+    box-shadow: inset 200px 0 0 0 #209710;
     color: white;
   }
 
@@ -72,9 +72,13 @@ a{
     border: 1px solid black;
     border-radius: 20px;
 
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 .projCard:hover{
     border:2px solid #209710;
+
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
 
     cursor: pointer;
 }
@@ -88,33 +92,19 @@ a{
 
 
 /*PROJECT PAGE*/
-/*
-#projBody{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto;
-}
-.proj{
-    display: grid;
-    justify-content: center;
-    margin: 0;
-
-    width: 100vw;
-    width:100%;
-}
-/*Project formating
-.proj img{
-    width: 800px;
-}
-*/
 
 #projBody{
-
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
 
 }
 .proj{
     text-align: center;
 }
 .proj img{
-    width: 80%;
+    width: min(1000px, 75%);
+}
+.proj a{
+    color: blue;
 }
