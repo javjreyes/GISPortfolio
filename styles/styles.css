@@ -1,3 +1,22 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  
+html{
+    font-family: 'Open Sans', sans-serif, 'Roboto';
+}
+
 body{
     margin:0;
 }
@@ -107,4 +126,20 @@ body{
 }
 .proj a{
     color: blue;
+}
+
+#projBody p{
+    margin-bottom: 70px;
+}
+#baltimoreCrimeTitle{
+    z-index: 1;
+}
+
+.img-comp-container{
+    margin-top: -60px;
+}
+
+#baltimoreCrimeDescription{
+    margin-top: -75px;
+    position: relative;
 }
