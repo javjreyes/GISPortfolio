@@ -146,3 +146,18 @@ body{
     margin-top: -75px;
     position: relative;
 }
+
+
+
+/*About Me Page*/
+
+#aboutBody{
+    text-align: center;
+}
+
+#aboutBody p{
+    width: min(1000px, 80%);
+
+    margin-left: auto;
+    margin-right: auto;
+}
